@@ -1,5 +1,3 @@
-CakePHP-Braintree-Subscription
-=======
 # Cake PHP Plugin for easy creating Braintree Subscriptions
 
 This Braintree CakePHP plugin is in Beta Testing Phase. 
@@ -11,6 +9,8 @@ Auth component is required.
 Webhooks management is implemented also, but you'll need to create and verify your webhook URL from Braintree Control Panel.
 
 Instalation instructions:
+
+=======
 
 1.) Create subscriptions table from subscriptions.sql file.
 
