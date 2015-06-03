@@ -2,11 +2,11 @@
 
 This Braintree CakePHP plugin is in Beta Testing Phase. 
 
-It is tested and developed on Cake PHP ver. 2.4.5.
+It is tested and developed using Cake PHP ver. 2.4.5.
 
 Auth component is required.
 
-Webhooks management is implemented also, but you'll need to create and verify your webhook URL from Braintree Control Panel.
+Webhooks management is implemented, but you'll need to create and verify your webhook URL from Braintree Control Panel.
 
 =======
 
