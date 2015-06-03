@@ -1,0 +1,6 @@
+/Vendor/*.*
+/webroot/js/*.*
+/webroot/css/foundation-icons/*.*
+/webroot/css/foundation.css
+/webroot/css/foundation.min.css
+/webroot/css/normalize.css

@@ -1,0 +1,21 @@
+.brid-top-nav{
+	  background-color: #012d39;
+}
+.top-bar{
+background: none;
+}
+.top-bar-section ul li{
+	background: none;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: none;
+}
+.list-actions a{
+	font-size:0.75rem;
+	color:#fff;
+	font-weight: normal;
+	font-size: 0.5rem;
+}
+table{
+	border-spacing:0px;
+}
