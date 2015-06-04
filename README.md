@@ -55,12 +55,16 @@ E.g app/Plugin/Braintree/webroot/css/foundation.min.css etc.
 * Here you can create your sandbox credentials [Braintree Sandbox](https://www.braintreepayments.com/get-started)
 
 * In your **app/Config/core.php** (NOT IN PLUGIN) setup your Braintree Credentials for testing.
+
 ```
-define('DEFAULT_PLAN_ID', 'your_name_of_the_plan');
-define('BRAINTREE_ENVIRONMENT', 'sandbox');
-define('BRAINTREE_MERCHANT_ID', 'your_merchant_id');
-define('BRAINTREE_PUBLIC_KEY', 'your_public_key');
-define('BRAINTREE_PRIVATE_KEY', 'your_private_key);
+Configure::write('Braintree', array(
+	    'plan_id' => 'your_plan_id',
+	    'env' => 'sandbox',
+	    'merchantId' => 'your_merchant_id',
+	    'publicKey' => 'your_public_key',
+	    'privateKey' => 'your_private_key',
+
+    ));
 ```
 * Use PaymentsController.php to implement your own logic for subscription actions.
 

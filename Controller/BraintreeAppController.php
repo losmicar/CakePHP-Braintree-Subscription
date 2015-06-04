@@ -40,7 +40,7 @@ abstract class BraintreeAppController extends AppController {
 
 		parent::beforeFilter();
 		/**
-		  * Hande your ACL
+		  * Handle your ACL
 		  * 
 		  */
 		$this->Auth->allow();
@@ -82,10 +82,10 @@ abstract class BraintreeAppController extends AppController {
 	 *	Setup Braintree API
 	 */
 	private function setup(){
-		Braintree_Configuration::environment(BRAINTREE_ENVIRONMENT);
-		Braintree_Configuration::merchantId(BRAINTREE_MERCHANT_ID);
-		Braintree_Configuration::publicKey(BRAINTREE_PUBLIC_KEY);
-		Braintree_Configuration::privateKey(BRAINTREE_PRIVATE_KEY);
+		Braintree_Configuration::environment(Configure::read('Braintree.env'));
+		Braintree_Configuration::merchantId(Configure::read('Braintree.merchantId'));
+		Braintree_Configuration::publicKey(Configure::read('Braintree.publicKey'));
+		Braintree_Configuration::privateKey(Configure::read('Braintree.privateKey'));
     }
     /**
      * Get Braintree Client Token
