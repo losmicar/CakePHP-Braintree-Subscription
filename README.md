@@ -1,10 +1,16 @@
-# Cake PHP Plugin for easy creating Braintree Subscriptions
+# Cake PHP Braintree Plugin for Subscriptions
 
-This Braintree CakePHP plugin is in Beta Testing Phase. 
+This CakePHP Braintree plugin is in Beta Testing Phase. 
 
 It is tested and developed using Cake PHP ver. 2.4.5.
 
-Auth component is required.
+Plugin is developed for creating subscriptions, not common transactions (that will come in future). All credit card (paypall) account info is stored in Braintreee Vault, nothing of these sensitive data is not stored on your server.
+
+#Requirements
+
+* Cake Auth component
+* [Foundation HTML Framework](http://foundation.zurb.com/develop/download.html) for better preview
+* [Braintree Php Linrary](https://developers.braintreepayments.com/javascript+php/start/hello-server)
 
 Webhooks management is implemented, but you'll need to create and verify your webhook URL from Braintree Control Panel.
 
@@ -36,7 +42,7 @@ CakePlugin::load('Braintree');
 * For a propper HTML rendering please download [Foundation HTML Framework](http://foundation.zurb.com/develop/download.html) and put it in Braintree Plugins webroot folders (css and js)
 E.g app/Plugin/Braintree/webroot/css/foundation.min.css etc.
 
-* For working with Braintree Api download [Braintree Api](https://developers.braintreepayments.com/javascript+php/start/hello-server) and put it into plugins **app/Plugin/Vendor/Braintree/Braintree** folder.
+* For working with Braintree Api download [Braintree Php Linrary](https://developers.braintreepayments.com/javascript+php/start/hello-server) and put it into plugins **app/Plugin/Vendor/Braintree/Braintree** folder.
 
 * Here you can create your sandbox credentials [Braintree Sandbox](https://www.braintreepayments.com/get-started)
 

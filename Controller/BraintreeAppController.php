@@ -1,8 +1,28 @@
 <?php
-
+/**
+ * BraintreeApp Controller File
+ *
+ * Copyright (c) 2015 Milos Todorovic
+ *
+ * Distributed under the terms of the MIT License.
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * PHP version 5.2.8
+ * CakePHP version 2.4.5
+ *
+ * @package    braintree
+ * @subpackage braintree.controllers
+ * @copyright  2015 Milos Todorovic <losmi.todor@gmail.com>
+ * @license    http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @link       https://github.com/losmicar/CakePHP-Braintree-Subscription
+ */
+/**
+ * BraintreeApp Controller Class
+ *
+ * @package    braintree
+ * @subpackage braintree.controllers
+ */
 App::import('Vendor', 'Braintree.Braintree/Braintree');
-App::import('Config', 'Braintree.Config/config.php');
-
 
 abstract class BraintreeAppController extends AppController {
 

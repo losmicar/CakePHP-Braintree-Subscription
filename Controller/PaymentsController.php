@@ -1,6 +1,26 @@
 <?php
 /**
- * Custom User Implemented logic to handle all hooks
+ * Payments Controller File
+ *
+ * Copyright (c) 2015 Milos Todorovic
+ *
+ * Distributed under the terms of the MIT License.
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * PHP version 5.2.8
+ * CakePHP version 2.4.5
+ *
+ * @package    braintree
+ * @subpackage braintree.controllers
+ * @copyright  2015 Milos Todorovic <losmi.todor@gmail.com>
+ * @license    http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @link       https://github.com/losmicar/CakePHP-Braintree-Subscription
+ */
+/**
+ * Payments Controller Class
+ *
+ * @package    braintree
+ * @subpackage braintree.controllers
  */
 class PaymentsController extends BraintreeAppController {
 
