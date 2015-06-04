@@ -16,11 +16,11 @@ Webhooks management is implemented, but you'll need to create and verify your we
 
 #Preview
 
-* [Checkout Page](http://foundation.zurb.com/develop/download.html) for better preview
-* [Subscription Details Page](http://foundation.zurb.com/develop/download.html) for better preview
-* [Payment Method Manage](http://foundation.zurb.com/develop/download.html) for better preview
-* [Add Payment Method](http://foundation.zurb.com/develop/download.html) for better preview
-* [Billing History](http://foundation.zurb.com/develop/download.html) for better preview
+* [Checkout Page](https://www.dropbox.com/s/gcbwhb604bd270w/Screenshot%202015-06-04%2009.39.39.png?dl=0) Url: yourpage.com/subscriptions/create/
+* [Subscription Details Page](https://www.dropbox.com/s/zyciwl7f67gvvwx/Screenshot%202015-06-04%2009.37.17.png?dl=0) Url: yourpage.com/subscriptions/orders/
+* [Payment Method Manage](https://www.dropbox.com/s/vvqdw51zpiha75j/Screenshot%202015-06-04%2009.41.12.png?dl=0) Url: yourpage.com/paymentmethods/index/
+* [Add Payment Method](https://www.dropbox.com/s/e2btq6vwwpk7czv/Screenshot%202015-06-04%2009.42.13.png?dl=0) Url: yourpage.com/paymentmethods/add/
+* [Billing History](https://www.dropbox.com/s/2trgm96s3t2n2do/Screenshot%202015-06-04%2009.42.40.png?dl=0) Url: yourpage.com/subscriptions/transactions/
 
 =======
 
