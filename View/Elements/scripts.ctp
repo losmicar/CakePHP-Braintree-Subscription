@@ -12,7 +12,8 @@
 	//We will store all local JavaScript files into this array
 
 	$jsScriptsLocal =  array(
-		'/braintree/js/vendor/jquery.min.js', //1.9.1
+		'/braintree/js/vendor/jquery.js',
+		'/braintree/js/vendor/modernizr.js',
 		'/braintree/js/foundation.min.js',
 		'/braintree/js/foundation/foundation.tooltip.js',
 		);

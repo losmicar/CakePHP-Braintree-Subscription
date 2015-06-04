@@ -6,13 +6,21 @@ It is tested and developed using Cake PHP ver. 2.4.5.
 
 Plugin is developed for creating subscriptions, not common transactions (that will come in future). All credit card (paypall) account info is stored in Braintreee Vault, nothing of these sensitive data is not stored on your server.
 
+Webhooks management is implemented, but you'll need to create and verify your webhook URL from Braintree Control Panel.
+
 #Requirements
 
 * Cake Auth component
 * [Foundation HTML Framework](http://foundation.zurb.com/develop/download.html) for better preview
 * [Braintree Php Linrary](https://developers.braintreepayments.com/javascript+php/start/hello-server)
 
-Webhooks management is implemented, but you'll need to create and verify your webhook URL from Braintree Control Panel.
+#Preview
+
+* [Checkout Page](http://foundation.zurb.com/develop/download.html) for better preview
+* [Subscription Details Page](http://foundation.zurb.com/develop/download.html) for better preview
+* [Payment Method Manage](http://foundation.zurb.com/develop/download.html) for better preview
+* [Add Payment Method](http://foundation.zurb.com/develop/download.html) for better preview
+* [Billing History](http://foundation.zurb.com/develop/download.html) for better preview
 
 =======
 

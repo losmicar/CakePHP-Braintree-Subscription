@@ -1,6 +1,6 @@
 <br/>
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-    <li role="menuitem"><a href="/partnerusers/index/">My Sites</a></li>
+    <li role="menuitem"><a href="/">Home</a></li>
     <li role="menuitem"><a href="/subscriptions/orders/">Payments</a></li>
     <li role="menuitem"><a href="/paymentmethods/index/">Payment Methods</a></li>
     <li role="menuitem" class="current"><a href="#">Update</a></li>

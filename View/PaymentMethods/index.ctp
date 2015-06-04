@@ -1,14 +1,11 @@
 <br/>
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-    <li role="menuitem"><a href="/partnerusers/index/">My Sites</a></li>
+    <li role="menuitem"><a href="/">Home</a></li>
     <li role="menuitem"><a href="/subscriptions/orders/">Payments</a></li>
     <li role="menuitem" class="current"><a href="#">Payment Methods</a></li>
 </nav>
 <br/>
 <a href="/paymentmethods/add/" class="button small radius">Add Payment Method</a>
-<!--
-<a href="/braintree/paymentmethods/paypal/" class="button small">Add Paypal</a>
--->
 <table style="width:100%">
 	<tr>
 		<th></th>
@@ -22,9 +19,6 @@
 <?php 
 
 $cards = array_merge($customer->creditCards , $customer->paypalAccounts);
-//print_r($cards);
-//print_r($customer->paypalAccounts);
-//die();
 
 foreach($cards as $k=>$v){
 

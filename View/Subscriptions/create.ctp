@@ -1,7 +1,7 @@
 <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
 <br/>
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-    <li role="menuitem"><a href="/partnerusers/index/">My Sites</a></li>
+    <li role="menuitem"><a href="/">Home</a></li>
     <li role="menuitem" class="current"><a href="#">Checkout</a></li>
 </nav>
 <br/>
